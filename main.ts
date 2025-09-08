@@ -192,9 +192,6 @@ function isMenuOpen(): boolean {
     return false
 }
 
-// Example usage:
-const printText = new speech.Speech();
-printText.printDialog("Hello world! This prints like a typewriter and wraps words properly. It scrolls if the text exceeds the bubble height, and plays a nice tick sound per letter.", speech.Volume.Loud);
 
 interface Task {
     isDone(): boolean;
